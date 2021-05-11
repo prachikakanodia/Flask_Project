@@ -6,7 +6,7 @@ model = load_model("dia_model.h5")
 
 @app.route("/home")
 def home():
-    return render_template("mform.html")
+    return render_template("form.html")
 
 @app.route("/output", methods=["GET"])
 def dia():
@@ -24,5 +24,6 @@ def dia():
         return(str(round(output[0][0])))
 
 app.run(host="172.17.0.2", port=8080)
+
 
 
