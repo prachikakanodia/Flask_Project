@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='form.css') }}">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="contact-us">
+    <div> <p><b>PIMA INDIANS DIABETES MEASUREMENT</b></p> </div>
+    <form action='/output' method="GET">
+      <label for="customerName">Pregnancies </label><input id="z1" name="z1" required="" type="text" />
+      <label for="customerEmail">Glucose </label><input id="z2" name="z2" required="" type="text" />
+      <label for="customerPhone">Blood Pressure</label><input id="z3" name="z3" required="" type="text" />
+      <label for="orderNumber">Skin Thickness</label><input id="z4" name="z4" required="" type="text" />
+      <label for="customerNote">Insulin </label><input id="z5" name="z5" required="" type="text" />
+      <label for="customerEmail">Body Mass Index </label><input id="z6" name="z6" required="" type="text" />
+      <label for="customerEmail">Diabetes Pedigree </label><input id="z7" name="z7" required="" type="text" />
+      <label for="customerEmail">Age </label><input id="z8" name="z8" required="" type="text" />
+      <h3>
+        Please provide all the information.
+      </h3>
+      <button id="customerOrder">SUBMIT</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
+
+
+
