@@ -1,6 +1,6 @@
 # Integrate Technologies to create Web-Application.
 
-I have taken the PIMA INDIANS DIABETES DATASET and after raw data analysis it will give the output in terms of Binary Classification i.e. 0/1 so that we can able to know whether a person is suffering from diabetes or not after considering certain factors.
+I have taken the PIMA INDIANS DIABETES DATASET and after raw data analysis it will give the output in terms of Binary Classification i.e. 0/1 so that we can able to know whether a person is suffering from diabetes or not after analyzing certain symptoms.
 
 # --> Keras and Flask
 Flask is a backend framework used to create web-applications and Keras is the library in Deep Learning which provides many functions in single module to use in neural network algorithms to create ML model.
